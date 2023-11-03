@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    width: 900px;
+    height: 500;
+
+
+}
+
+section img{
+    width: 0;
+    flex-grow: 2;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+}
+
+section img:hover{
+
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120);
+
+
+}
